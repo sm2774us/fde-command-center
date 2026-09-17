@@ -1,0 +1,6 @@
+{
+  "name": "Palantir Lead FDE Showcase",
+  "description": "Enterprise showcase demonstrating mastery as a Lead Forward Deployed Engineer: Palantir Foundry, AIP & Maven, hybrid pod leadership, production GenAI & RAG pipelines, and C-suite client engagement.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

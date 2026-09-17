@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+/* Enterprise Presentation Clean Light Mode Overrides */
+html.theme-light,
+.theme-light {
+  color-scheme: light;
+}
+
+html.theme-light body {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+.theme-light .bg-slate-950,
+.theme-light .bg-slate-950\/90,
+.theme-light .bg-slate-950\/80,
+.theme-light .bg-slate-950\/60,
+.theme-light .bg-slate-950\/40 {
+  background-color: #ffffff !important;
+  color: #0f172a;
+}
+
+.theme-light .bg-slate-900,
+.theme-light .bg-slate-900\/90,
+.theme-light .bg-slate-900\/80,
+.theme-light .bg-slate-900\/60,
+.theme-light .bg-slate-900\/40 {
+  background-color: #f8fafc !important;
+}
+
+.theme-light .border-slate-800,
+.theme-light .border-slate-800\/80,
+.theme-light .border-slate-850,
+.theme-light .border-slate-900 {
+  border-color: #e2e8f0 !important;
+}
+
+.theme-light .border-slate-700 {
+  border-color: #cbd5e1 !important;
+}
+
+.theme-light .text-white {
+  color: #0f172a !important;
+}
+
+.theme-light .text-slate-100 {
+  color: #0f172a !important;
+}
+
+.theme-light .text-slate-200 {
+  color: #1e293b !important;
+}
+
+.theme-light .text-slate-300 {
+  color: #334155 !important;
+}
+
+.theme-light .text-slate-400 {
+  color: #64748b !important;
+}
+
+.theme-light .text-slate-500 {
+  color: #64748b !important;
+}
+
+.theme-light .bg-cyan-950,
+.theme-light .bg-cyan-950\/40,
+.theme-light .bg-cyan-950\/50,
+.theme-light .bg-cyan-950\/60 {
+  background-color: #ecfeff !important;
+}
+
+.theme-light .bg-emerald-950\/60,
+.theme-light .bg-emerald-950\/40 {
+  background-color: #ecfdf5 !important;
+}
+
+.theme-light .bg-amber-950\/60,
+.theme-light .bg-amber-950\/40 {
+  background-color: #fffbeb !important;
+}
+
+/* Light mode shadow enhancements */
+.theme-light .shadow-2xl,
+.theme-light .shadow-xl,
+.theme-light .shadow-lg {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05) !important;
+}
+
+@media print {
+  /* Hide navigation header, footer, interactive action buttons */
+  header, 
+  footer, 
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+  }
+
+  /* Optimize layout for standard letter/A4 pages */
+  main {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
